@@ -5,7 +5,7 @@ Log programs on LinuxCNC
 1. Make *.py files executable (chmod u+x *.py)
 2. Modify your {CONFIG_NAME}.ini
 ```ini
-[AXIS]
+[DISPLAY]
 ...
 EMBED_TAB_NAME = Exec Log
 EMBED_TAB_COMMAND = halcmd loadusr -Wn gladevcp gladevcp -c gladevcp -x {XID} -u ./exec_log/exec_log.py ./exec_log/exec_log.ui
